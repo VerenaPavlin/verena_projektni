@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS dokument */
+@font-face {
+    font-family:"VerenaPavlin"; 
+    src:url("DM projektni3/VerenaPavlin.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Patrick+Hand&display=swap");
+p {
+	color:#051923 ;
+	font-family:"Arial";
+	font-size: 20px;
+	line-height: 20px;
+	background-color: rgba(255,255,255,0.5);
+	padding: 15px;
+	max-width: 500px;
+	margin: auto;  
+	text-align: center;
+	}
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:#051923;
+			padding:15px;
+			border: 2px solid #b8c0ff;
+			max-width: 600px;
+		margin: auto;
+		}
+	li:active {background-color:IndianRed;}
+	.navigacijskatraka1 {
+			padding:10px; 
+			max-width: 500px;
+			margin-left: 665px;
+			margin-right: auto;
+			text-align: center;
+	}
+	.navigacijskatraka {
+			padding:10px; 
+			max-width: 500px;
+			margin-left:auto;
+			margin-right: auto;
+			text-align: center;
+	}
+	h1{
+		font-family: "VerenaPavlin";
+		color: white;
+		font-size: 50px;
+		padding:20px; 
+		max-width: 500px;
+		margin: auto;
+		text-align: center;
+	}
+	h2{
+		font-family: "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Patrick+Hand&display=swap";
+		color: #c1d3fe;
+		font-size: 50px;
+		padding:20px; 
+		max-width: 500px;
+		margin: auto;
+		text-align: center;
+		
+	}
+	
+	span{color: white;}
+	.omeni{
+		padding:20px; 
+		max-width: 500px;
+		margin: auto;
+		background-image: url("DM3/slike/poz 1.jpg");
+		text-align: center;
+	}
+	.imenavjezba{
+		font-family: "Arial";
+		color:#051923 ;
+		font-size: 20px;
+		padding:10px; 
+		background-color: rgba(255,255,255,0.5);
+		max-width: 500px;
+		margin: auto;
+		text-align: center
+	}
+	
+	.pozadina {
+		background-image: url("DM3/slike/poz 1.jpg");
+	}
+	.opisvidea{
+		text-align: left;
+	}
+	.center-video {
+    display: block;
+    margin: auto;
+    width: 50%;
+	}
+	a:link {
+		color; white;
+		background-color: #bbd0ff;
+		padding: 5px;
+		line-height: 32px;
+		border:2px solid white;
+	}
+	a:hover{
+		background-color: #ffe5ec;
+	}
+	img{
+		display: inline;
+		height:300px;
+		margin-left: auto;
+		margin-right:auto;
+		
+	}
