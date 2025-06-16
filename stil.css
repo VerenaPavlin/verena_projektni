@@ -2,7 +2,7 @@
 /* CSS dokument */
 @font-face {
     font-family:"VerenaPavlin"; 
-    src:url("VerenaPavlin.ttf");
+    src:url("VerenaPavlin.ttf") format('truetype');
 }
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Patrick+Hand&display=swap");
 p {
